@@ -6,7 +6,7 @@ encryption_dict_first_key_list = []
 encryption_dict_first_value_list = []
 userFile = input('Dosyanızın, encrypt.py dosyası ie aynı konumda olduğundan emin olduktan sonra, dosyaınızın ismini uzantısı ile birlikte giriniz:  ')
 for i in range(65,127):
-    encryption_dict_first[chr(i)] = str(i) + " "
+    encryption_dict_first[chr(i)] = str(i)
 for a,b in encryption_dict_first.items():
     encryption_dict_first_key_list.append(a)
     encryption_dict_first_value_list.append(b)
